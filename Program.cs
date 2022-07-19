@@ -1,4 +1,4 @@
-using PeriodicTimer;
+using PeriodicTimerStudy;
 
 var builder = WebApplication.CreateBuilder(args);
 
