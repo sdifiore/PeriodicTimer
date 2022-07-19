@@ -23,6 +23,7 @@
         {
             Console.WriteLine(DateTime.Now.ToString("O"));
             await Task.Delay(500); // Simulação de uma tarefa qualquer que consome tempo
+            //! observar que delay foi inferior ao TimeSpan definido!!!
         }
     }
 }
