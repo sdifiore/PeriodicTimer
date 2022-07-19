@@ -22,7 +22,7 @@
         private static async Task DoWorkAsync()
         {
             Console.WriteLine(DateTime.Now.ToString("O"));
-            //await Task.Delay(500); // Simulação de uma tarefa qualquer que consome tempo
+            await Task.Delay(500); // Simulação de uma tarefa qualquer que consome tempo
         }
     }
 }
