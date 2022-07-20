@@ -2,7 +2,7 @@
 {
     public class RepeatingService : BackgroundService
     {
-        private ILogger<RepeatingService> _logger;
+        private readonly ILogger<RepeatingService> _logger;
         private readonly PeriodicTimer _timer = new(TimeSpan.FromMilliseconds(1000));
 
         public RepeatingService(ILogger<RepeatingService> logger)
